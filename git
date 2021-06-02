@@ -1,0 +1,155 @@
+
+ganga@DESKTOP-59J8PTR MINGW64 ~
+$ git --version
+git version 2.31.1.windows.1
+
+ganga@DESKTOP-59J8PTR MINGW64 ~
+$ git config --global user.name "sakethjale"
+
+ganga@DESKTOP-59J8PTR MINGW64 ~
+$ git config --global user.email "sakethjale08@gmail.com"
+
+ganga@DESKTOP-59J8PTR MINGW64 ~
+$ pwd
+/c/Users/ganga
+
+ganga@DESKTOP-59J8PTR MINGW64 ~
+$ ls
+
+'3D Objects'/         Documents/              'Local Settings'@                                                     NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+ AppData/             Downloads/               Music/                                                               NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+'Application Data'@   Dropbox/                'My Documents'@                                                       NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ Contacts/            Favorites/               NTUSER.DAT                                                           NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000
+ Cookies@             IntelGraphicsProfiles/   NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms   NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000
+ Desktop/             Links/                   NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms   NetHood@
+
+ganga@DESKTOP-59J8PTR MINGW64 ~
+$
+
+ganga@DESKTOP-59J8PTR MINGW64 ~
+$ cd desktop
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop
+$ ls
+desktop.ini  screenshot/
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop
+$ mkdir sunny
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop
+$ ls
+desktop.ini  screenshot/  sunny/
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop
+$ cd sunny
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$ git clone https://github.com/whitehatjr/AngryBirdsStage2.5StudentActivity.git
+Cloning into 'AngryBirdsStage2.5StudentActivity'...
+remote: Enumerating objects: 44, done.
+remote: Total 44 (delta 0), reused 0 (delta 0), pack-reused 44
+Receiving objects: 100% (44/44), 2.54 MiB | 1.68 MiB/s, done.
+Resolving deltas: 100% (13/13), done.
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$ ls
+AngryBirdsStage2.5StudentActivity/
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$ cd
+
+ganga@DESKTOP-59J8PTR MINGW64 ~
+$
+
+ganga@DESKTOP-59J8PTR MINGW64 ~
+$ cd desktop
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop
+$ cd sunny
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$ ls
+AngryBirdsStage2.5StudentActivity/
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$ ^C
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny
+$ cd AngryBirdsStage2.5StudentActivity/
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny/AngryBirdsStage2.5StudentActivity (master)
+$ ls
+BaseClass.js  Log.js      matter.js        sketch.js
+Bird.js       Pig.js      p5.dom.min.js    sprites/
+Box.js        README.md   p5.min.js        style.css
+Ground.js     index.html  p5.sound.min.js
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny/AngryBirdsStage2.5StudentActivity (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny/AngryBirdsStage2.5StudentActivity (master)
+$ git add README.md
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny/AngryBirdsStage2.5StudentActivity (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny/AngryBirdsStage2.5StudentActivity (master)
+$ git commit -m "hello"
+[master ffc0bab] hello
+ 1 file changed, 1 insertion(+)
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny/AngryBirdsStage2.5StudentActivity (master)
+$ git remote add abc https://github.com/sakethjale/platform.git
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny/AngryBirdsStage2.5StudentActivity (master)
+$ git push -u abc
+Enumerating objects: 47, done.
+Counting objects: 100% (47/47), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (30/30), done.
+Writing objects: 100% (47/47), 2.54 MiB | 1.35 MiB/s, done.
+Total 47 (delta 15), reused 42 (delta 13), pack-reused 0
+remote: Resolving deltas: 100% (15/15), done.
+To https://github.com/sakethjale/platform.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'abc'.
+
+ganga@DESKTOP-59J8PTR MINGW64 ~/desktop/sunny/AngryBirdsStage2.5StudentActivity (master)
+$
